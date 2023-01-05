@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.screen {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#logo {
+    width: 30%;
+}
+
+#welcome-text {
+    font-family: tahoma;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+.nav-button {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    border: 2px solid green;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    background-color: green;
+    color: whitesmoke;
+    transition: all 1s ease-in-out;
+}
+
+.nav-button:hover {
+    background-color: purple;
+}
