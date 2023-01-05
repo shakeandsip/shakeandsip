@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .screen {
     width: 100vw;
     height: 100vh;
@@ -37,4 +43,28 @@
 
 .nav-button:hover {
     background-color: purple;
+}
+
+.header h1 {
+    font-family: algerian;
+    font-size: 2em;
+}
+
+.content {
+    text-align: center;
+    padding: 50px;
+    border: 2px solid grey;
+    border-radius: 50px;
+}
+
+.content p {
+    padding: 5px;
+    background: rgba(0,0,0,0.3);
+    font-family: tahoma;
+}
+
+#contacts {
+    background-color: #7f7;
+    color: black;
+    text-align: left;
 }
